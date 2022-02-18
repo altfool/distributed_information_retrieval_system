@@ -1,0 +1,8 @@
+2 indices:
+idf index:
+<word, df> here df means document frequency
+
+doc tf-idf:
+basically, we want to use tf-idf for document so:
+<txtid, (word:normalized_tfidf, word:normalized_tfidf,...)>
+in the files it shows like this: <txt, Map(word, tfidf)>
